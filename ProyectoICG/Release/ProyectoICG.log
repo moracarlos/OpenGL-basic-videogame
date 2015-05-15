@@ -1,0 +1,71 @@
+﻿Build started 08-04-2015 11:47:54 a.m..
+     1>Project "C:\Users\Carlos\Desktop\ProyectoICG\ProyectoICG\ProyectoICG.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(34): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>main.cpp(47): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(101): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(104): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>main.cpp(116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>main.cpp(124): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>main.cpp(127): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>main.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>main.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(239): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(242): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>main.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(270): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(295): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(296): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(297): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>main.cpp(341): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(348): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(483): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(511): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(514): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(517): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(520): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(522): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(526): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(529): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(531): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(946): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>main.cpp(953): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>main.cpp(956): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(1055): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1057): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1062): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1064): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1072): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1074): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1079): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1081): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(1087): warning C4305: '=' : truncation from 'double' to 'float'
+     1>main.cpp(1094): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Carlos\Desktop\ProyectoICG\Release\ProyectoICG.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Carlos\Desktop\ProyectoICG\Release\ProyectoICG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Carlos\Desktop\ProyectoICG\Release\ProyectoICG.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\GLSLProgram.obj
+         Release\main.obj
+         Release\menu.obj
+         Release\object.obj
+         Release\textureObject.obj
+         Generating code
+         Finished generating code
+         ProyectoICG.vcxproj -> C:\Users\Carlos\Desktop\ProyectoICG\Release\ProyectoICG.exe
+     1>Done Building Project "C:\Users\Carlos\Desktop\ProyectoICG\ProyectoICG\ProyectoICG.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.20
